@@ -1,0 +1,44 @@
+object Form3: TForm3
+  Left = 0
+  Height = 240
+  Top = 822
+  Width = 725
+  Caption = 'Фигуры'
+  ClientHeight = 240
+  ClientWidth = 725
+  LCLVersion = '1.6.0.4'
+  object Shape1: TShape
+    Left = 40
+    Height = 121
+    Top = 24
+    Width = 73
+    Brush.Color = clRed
+    Brush.Style = bsBDiagonal
+    Pen.Cosmetic = False
+    Pen.Style = psDot
+    Pen.Width = 5
+    OnChangeBounds = Shape1ChangeBounds
+    Shape = stEllipse
+  end
+  object Shape2: TShape
+    Left = 200
+    Height = 65
+    Top = 80
+    Width = 153
+    Brush.Color = clLime
+    Pen.Color = clGreen
+    Pen.Style = psinsideFrame
+    Pen.Width = 2
+    Shape = stRoundRect
+  end
+  object Shape3: TShape
+    Left = 120
+    Height = 65
+    Top = 176
+    Width = 65
+    Brush.Color = clAqua
+    Pen.Style = psDash
+    Pen.Width = 3
+    Shape = stSquare
+  end
+end

@@ -1,0 +1,28 @@
+object MainForm: TMainForm
+  Left = 272
+  Height = 250
+  Top = 110
+  Width = 250
+  Caption = 'MainForm'
+  ClientHeight = 250
+  ClientWidth = 250
+  LCLVersion = '1.8.2.0'
+  object Design_button: TButton
+    Left = 80
+    Height = 41
+    Top = 56
+    Width = 100
+    Caption = 'Design time'
+    OnClick = designClick
+    TabOrder = 0
+  end
+  object Runtime_button: TButton
+    Left = 80
+    Height = 40
+    Top = 120
+    Width = 100
+    Caption = 'Run time'
+    OnClick = runtimeClick
+    TabOrder = 1
+  end
+end

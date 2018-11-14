@@ -1,0 +1,39 @@
+object Form1: TForm1
+  Left = 497
+  Height = 240
+  Top = 798
+  Width = 320
+  Caption = 'Главное окно'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 100
+    Height = 25
+    Top = 127
+    Width = 75
+    Caption = 'Рисунок'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 200
+    Height = 25
+    Top = 127
+    Width = 75
+    Caption = 'Фигуры'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 155
+    Height = 30
+    Top = 209
+    Width = 75
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 2
+  end
+end

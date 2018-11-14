@@ -1,0 +1,99 @@
+object fmDialog: TfmDialog
+  Left = -28
+  Height = 480
+  Top = 225
+  Width = 690
+  Caption = 'Окно диалога'
+  ClientHeight = 480
+  ClientWidth = 690
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object pnDraw: TPanel
+    Left = 30
+    Height = 400
+    Top = 10
+    Width = 300
+    BorderStyle = bsSingle
+    ClientHeight = 396
+    ClientWidth = 296
+    TabOrder = 0
+    object imDraw: TImage
+      Left = 20
+      Height = 180
+      Top = 78
+      Width = 255
+      AutoSize = True
+    end
+  end
+  object pnText: TPanel
+    Left = 340
+    Height = 400
+    Top = 10
+    Width = 300
+    BorderStyle = bsSingle
+    ClientHeight = 396
+    ClientWidth = 296
+    TabOrder = 1
+    object btSaveText: TButton
+      Left = 190
+      Height = 25
+      Top = 240
+      Width = 75
+      Caption = 'Сохранить'
+      OnClick = btSaveTextClick
+      TabOrder = 0
+    end
+    object btLoadText: TButton
+      Left = 30
+      Height = 25
+      Top = 240
+      Width = 75
+      Caption = 'Загрузить'
+      OnClick = btLoadTextClick
+      TabOrder = 1
+    end
+    object reText: TMemo
+      Left = 24
+      Height = 180
+      Top = 16
+      Width = 255
+      Lines.Strings = (
+        '0'
+      )
+      ScrollBars = ssBoth
+      TabOrder = 2
+    end
+  end
+  object btDraw: TButton
+    Left = 110
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Рисунок'
+    OnClick = btDrawClick
+    TabOrder = 2
+  end
+  object BitBtn1: TBitBtn
+    Left = 560
+    Height = 30
+    Top = 440
+    Width = 75
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 3
+  end
+  object odText: TOpenDialog
+    Filter = 'Все файлы|*.*|Текстовые файлы|*.txt;*.pas;*.doc;*.rtf'
+    left = 655
+    top = 16
+  end
+  object sdText: TSaveDialog
+    left = 655
+    top = 144
+  end
+  object opdDraw: TOpenPictureDialog
+    left = 655
+    top = 88
+  end
+end

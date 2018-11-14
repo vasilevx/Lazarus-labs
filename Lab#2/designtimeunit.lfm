@@ -1,0 +1,52 @@
+object DesignTimeForm: TDesignTimeForm
+  Left = 524
+  Height = 240
+  Top = 112
+  Width = 321
+  Caption = 'DesignTimeForm'
+  ClientHeight = 240
+  ClientWidth = 321
+  LCLVersion = '1.8.2.0'
+  object ListBox1: TListBox
+    Left = 8
+    Height = 80
+    Top = 8
+    Width = 304
+    Items.Strings = (
+      'Paint'
+      'Блокнот'
+      'Конфигурация системы'
+    )
+    ItemHeight = 15
+    OnKeyUp = SpacePress
+    OnMouseUp = ListClick
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 30
+    Top = 96
+    Width = 304
+    Caption = 'Paint'
+    OnClick = ButtonClick
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 30
+    Top = 126
+    Width = 304
+    Caption = 'Блокнот'
+    OnClick = ButtonClick
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 8
+    Height = 30
+    Top = 156
+    Width = 304
+    Caption = 'Конфигурация системы'
+    OnClick = ButtonClick
+    TabOrder = 3
+  end
+end

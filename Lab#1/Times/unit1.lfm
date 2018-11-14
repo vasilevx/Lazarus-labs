@@ -1,0 +1,97 @@
+object fmStopWatch: TfmStopWatch
+  Left = 318
+  Height = 375
+  Top = 573
+  Width = 610
+  Caption = 'Секундомер'
+  ClientHeight = 375
+  ClientWidth = 610
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.4'
+  object lbTotalTime: TLabel
+    Left = 56
+    Height = 41
+    Top = 56
+    Width = 203
+    Alignment = taCenter
+    Caption = 'Общее время'
+    Font.Color = clGreen
+    Font.Height = 30
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object mmTotalTime: TMemo
+    Left = 312
+    Height = 34
+    Top = 36
+    Width = 150
+    Alignment = taRightJustify
+    Enabled = False
+    Lines.Strings = (
+      '0.0'
+    )
+    ReadOnly = True
+    TabOrder = 3
+    TabStop = False
+  end
+  object btStart: TButton
+    Left = 78
+    Height = 25
+    Top = 282
+    Width = 75
+    Caption = 'Начало'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object btLap: TButton
+    Left = 230
+    Height = 25
+    Top = 282
+    Width = 75
+    Caption = 'Интервал'
+    OnClick = btLapClick
+    TabOrder = 1
+  end
+  object btReset: TButton
+    Left = 390
+    Height = 25
+    Top = 282
+    Width = 75
+    Caption = 'Сброс'
+    OnClick = btResetClick
+    TabOrder = 2
+  end
+  object LBlAPtIME: TLabel
+    Left = 56
+    Height = 41
+    Top = 160
+    Width = 272
+    Alignment = taCenter
+    Caption = 'Время интервала'
+    Font.Color = clGreen
+    Font.Height = 30
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object mmLapTime: TMemo
+    Left = 312
+    Height = 34
+    Top = 140
+    Width = 150
+    Alignment = taRightJustify
+    Lines.Strings = (
+      '0.0'
+    )
+    ReadOnly = True
+    TabOrder = 4
+    TabStop = False
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 532
+    top = 142
+  end
+end
