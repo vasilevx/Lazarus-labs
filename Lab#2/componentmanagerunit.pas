@@ -21,7 +21,7 @@ type
       procedure SpacePress(Sender: TObject; var Key: Word; Shift: TShiftState);
       procedure ButtonClick(Sender: TObject);
     public
-      constructor Create(); overload;
+      constructor Create();
       destructor Destroy(); override;
 end;
 
