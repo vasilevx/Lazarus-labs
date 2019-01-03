@@ -1,0 +1,43 @@
+object Form2: TForm2
+  Left = 1029
+  Height = 436
+  Top = 554
+  Width = 573
+  Caption = 'Chart'
+  ClientHeight = 436
+  ClientWidth = 573
+  LCLVersion = '1.8.2.0'
+  object Chart1: TChart
+    Left = 0
+    Height = 436
+    Top = 0
+    Width = 573
+    AxisList = <    
+      item
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.Visible = True
+        Title.Caption = 'Память'
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.Visible = True
+        Title.Caption = 'Время'
+        Title.LabelBrush.Style = bsClear
+      end>
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Align = alClient
+    object Chart1LineSeries1: TLineSeries
+    end
+  end
+end
