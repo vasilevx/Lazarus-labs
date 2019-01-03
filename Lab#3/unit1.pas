@@ -203,6 +203,10 @@ end;
 procedure TForm1.StartButtonClick(Sender: TObject);
 var i: integer;
 begin
+  if Queue.Count = 0 then begin
+     ShowMessage('Введите задачу!');
+     Exit;
+  end;
   Timer1.Enabled := True;
   StartButton.Enabled := False;
   if Queue <> nil then
