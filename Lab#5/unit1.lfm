@@ -1,0 +1,93 @@
+object Form1: TForm1
+  Left = 325
+  Height = 424
+  Top = 124
+  Width = 505
+  Caption = 'Картинки и папки'
+  ClientHeight = 424
+  ClientWidth = 505
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object openFolderButton: TButton
+    Left = 96
+    Height = 25
+    Top = 288
+    Width = 108
+    Caption = 'Открыть папку'
+    OnClick = openFolderButtonClick
+    TabOrder = 0
+  end
+  object TreeView1: TTreeView
+    Left = 0
+    Height = 249
+    Top = 0
+    Width = 505
+    TabOrder = 1
+    OnDblClick = TreeView1DblClick
+  end
+  object SaveH: TButton
+    Left = 296
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'Сохранить'
+    OnClick = SaveHClick
+    TabOrder = 2
+  end
+  object SaveL: TButton
+    Left = 296
+    Height = 25
+    Top = 352
+    Width = 75
+    Caption = 'Сохранить'
+    OnClick = SaveLClick
+    TabOrder = 3
+  end
+  object RestorH: TButton
+    Left = 400
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'Загрузить'
+    OnClick = RestorHClick
+    TabOrder = 4
+  end
+  object RestorL: TButton
+    Left = 400
+    Height = 25
+    Top = 352
+    Width = 75
+    Caption = 'Загрузить'
+    OnClick = RestorLClick
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 296
+    Height = 15
+    Top = 266
+    Width = 179
+    Caption = 'Высокоуровневая сериализация'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 296
+    Height = 15
+    Top = 328
+    Width = 171
+    Caption = 'Низкоуровневая сериализация'
+    ParentColor = False
+  end
+  object ClearBtn: TButton
+    Left = 112
+    Height = 25
+    Top = 352
+    Width = 75
+    Caption = 'Очистить'
+    OnClick = ClearBtnClick
+    TabOrder = 6
+  end
+  object SelectDirectory: TSelectDirectoryDialog
+    left = 32
+    top = 280
+  end
+end

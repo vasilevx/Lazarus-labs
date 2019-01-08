@@ -1,0 +1,265 @@
+object TFileTree
+  Items = <  
+    item
+      Pname = 'D:\Files\avito'
+      Pparent = -1
+    end  
+    item
+      Pname = '1srqjPQB28Q.jpg'
+      Pparent = 0
+    end  
+    item
+      Pname = 'CjICFbea7vQ.jpg'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2585.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2586.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2588.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2590.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2591.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2595.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2597.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2598.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2599.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2600.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2601.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2603.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2604.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2607.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2612.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2616.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2620.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2623.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2626.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2627.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2628.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2634.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2635.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2636.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2637.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2641.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2644.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2645.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'TxbR_PBSlpY.jpg'
+      Pparent = 0
+    end  
+    item
+      Pname = 'uts7SzRXwxs.jpg'
+      Pparent = 0
+    end  
+    item
+      Pname = '1srqjPQB28Q.jpg'
+      Pparent = 0
+    end  
+    item
+      Pname = 'CjICFbea7vQ.jpg'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2585.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2586.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2588.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2590.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2591.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2595.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2597.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2598.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2599.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2600.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2601.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2603.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2604.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2607.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2612.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2616.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2620.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2623.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2626.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2627.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2628.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2634.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2635.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2636.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2637.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2641.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2644.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'IMG_2645.JPG'
+      Pparent = 0
+    end  
+    item
+      Pname = 'TxbR_PBSlpY.jpg'
+      Pparent = 0
+    end  
+    item
+      Pname = 'uts7SzRXwxs.jpg'
+      Pparent = 0
+    end>
+  StartFolderString = 'D:\Files\avito'
+  CkkItem = 65
+end
